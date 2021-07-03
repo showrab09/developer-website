@@ -17,6 +17,12 @@ section {
   width: 50%;
   padding: 6%;
 }
+.together {
+  font-size: 30px;
+}
+.together span {
+  font-size: 35px;
+}
 .half img {
   width: 88%;
 }
@@ -32,6 +38,12 @@ section {
 .top {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+  margin-bottom: 0px;
+}
+.second {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .link-button {
   padding: 10px 40px;
