@@ -10,7 +10,7 @@ span {
   color: #ffb228;
   font-size: 60px;
 }
-section {
+.flx {
   display: flex;
 }
 .half {
@@ -52,4 +52,44 @@ section {
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 5px;
+}
+.experience h1 {
+  text-align: center;
+}
+.experience {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.e {
+  text-align: center;
+}
+.exp {
+  display: flex;
+}
+hr {
+  width: 20%;
+  text-align: center;
+  margin: 30px 40%;
+}
+.box h3 {
+  color: orangered;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.box h1 {
+  font-size: 40px;
+}
+.box {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 25px;
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 15px;
+  border-left: 10px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
 }
