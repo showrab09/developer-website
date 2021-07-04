@@ -52,6 +52,7 @@ span {
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 5px;
+  border: 1px solid transparent;
 }
 .experience h1 {
   text-align: center;
@@ -92,4 +93,20 @@ hr {
   border-left: 10px solid;
   border-image: linear-gradient(blue, cyan);
   border-image-slice: 1;
+}
+footer p {
+  text-align: center;
+  color: black;
+  padding: 20px;
+  background-color: gray;
+}
+.half img:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.link-button:hover {
+  background: white;
+  border: 1px solid black;
+  color: black;
+  transition: 0.5s;
 }
