@@ -16,7 +16,7 @@ span {
   display: flex;
 }
 .half {
-  width: 50%;
+  width: 100%;
   padding: 6%;
 }
 .together {
