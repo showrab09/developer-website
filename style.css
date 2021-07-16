@@ -5,10 +5,12 @@
 }
 h1 {
   font-size: 50px;
+
+  margin-bottom: 60px;
 }
+
 span {
   color: #ffb228;
-  font-size: 60px;
 }
 .flx {
   display: flex;
@@ -109,4 +111,43 @@ footer p {
   border: 1px solid black;
   color: black;
   transition: 0.5s;
+}
+
+/* Tablet responsive */
+@media only screen and (min-width: 700px) and (max-width: 1200px) {
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .exp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .exp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .head h1 {
+    font-size: 30px;
+  }
 }
