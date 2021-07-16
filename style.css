@@ -18,6 +18,7 @@ span {
 .half {
   width: 100%;
   padding: 6%;
+  text-align: center;
 }
 .together {
   font-size: 30px;
@@ -69,6 +70,8 @@ span {
 }
 .exp {
   display: flex;
+  justify-content: center;
+  column-gap: 40px;
 }
 hr {
   width: 20%;
@@ -85,8 +88,7 @@ hr {
 }
 .box {
   width: 40%;
-  margin-left: 5%;
-  margin-right: 5%;
+
   margin-top: 50px;
   margin-bottom: 100px;
   padding: 25px;
